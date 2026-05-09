@@ -6,7 +6,7 @@
 
 ## 🎥 Live Demo
 
-[![Watch Demo Video](https://img.shields.io/badge/▶%20Watch%20Demo%20Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]()
+https://github.com/user-attachments/assets/bcbba1c7-c0fa-4ffc-8345-e247f1798d5a
 
 **👆 Start here!** Watch the demo above to see the app in action before diving into the technical details.
 
