@@ -53,11 +53,17 @@ Grocery App is a fully-functional e-commerce platform built with Flutter, design
 
 | Home Screen                                                                      | Product Details                                                                          | Shopping Cart                                                               |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ![Home Screen Placeholder](https://via.placeholder.com/300x600?text=Home+Screen) | ![Product Details Placeholder](https://via.placeholder.com/300x600?text=Product+Details) | ![Cart Placeholder](https://via.placeholder.com/300x600?text=Shopping+Cart) |
+| ![Home Screen Placeholder](<img width="402" height="874" alt="Home Page" src="https://github.com/user-attachments/assets/56f7bea6-c311-4c65-ace4-904960bcaccc" />
+) | ![Product Details Placeholder](<img width="402" height="874" alt="Product Detailes" src="https://github.com/user-attachments/assets/606e1aae-dbf4-431c-a2b1-5f661d891588" />
+) | ![Cart Placeholder](<img width="402" height="875" alt="Checkout 3" src="https://github.com/user-attachments/assets/09507846-6d81-4359-9361-90c40cb436b0" />
+) |
 
 | Categories                                                                     | Search Results                                                                 | Favorites                                                                    |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| ![Categories Placeholder](https://via.placeholder.com/300x600?text=Categories) | ![Search Placeholder](https://via.placeholder.com/300x600?text=Search+Results) | ![Favorites Placeholder](https://via.placeholder.com/300x600?text=Favorites) |
+| ![Categories Placeholder](<img width="397" height="857" alt="لقطة شاشة 2026-05-10 025241" src="https://github.com/user-attachments/assets/392dc33c-d7bb-4d8a-9e90-5f9a7e8b6c43" />
+) | ![Search Placeholder](<img width="402" height="874" alt="search11" src="https://github.com/user-attachments/assets/a34e6d73-b036-487c-81de-910f4febb0a5" />
+) | ![Favorites Placeholder](<img width="402" height="874" alt="Fav" src="https://github.com/user-attachments/assets/08f38d0c-ede8-450a-ae5c-8e256f76dd06" />
+) |
 
 ---
 
