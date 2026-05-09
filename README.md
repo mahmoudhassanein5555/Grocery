@@ -51,19 +51,19 @@ Grocery App is a fully-functional e-commerce platform built with Flutter, design
 
 ## 📸 Screenshots
 
-| Home Screen                                                                      | Product Details                                                                          | Shopping Cart                                                               |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ![Home Screen Placeholder](<img width="402" height="874" alt="Home Page" src="https://github.com/user-attachments/assets/56f7bea6-c311-4c65-ace4-904960bcaccc" />
-) | ![Product Details Placeholder](<img width="402" height="874" alt="Product Detailes" src="https://github.com/user-attachments/assets/606e1aae-dbf4-431c-a2b1-5f661d891588" />
-) | ![Cart Placeholder](<img width="402" height="875" alt="Checkout 3" src="https://github.com/user-attachments/assets/09507846-6d81-4359-9361-90c40cb436b0" />
-) |
+### 🏠 Home & Product Flow
 
-| Categories                                                                     | Search Results                                                                 | Favorites                                                                    |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| ![Categories Placeholder](<img width="397" height="857" alt="لقطة شاشة 2026-05-10 025241" src="https://github.com/user-attachments/assets/392dc33c-d7bb-4d8a-9e90-5f9a7e8b6c43" />
-) | ![Search Placeholder](<img width="402" height="874" alt="search11" src="https://github.com/user-attachments/assets/a34e6d73-b036-487c-81de-910f4febb0a5" />
-) | ![Favorites Placeholder](<img width="402" height="874" alt="Fav" src="https://github.com/user-attachments/assets/08f38d0c-ede8-450a-ae5c-8e256f76dd06" />
-) |
+| Home Screen | Product Details | Shopping Cart |
+|-------------|----------------|---------------|
+| ![Home Screen](https://github.com/user-attachments/assets/56f7bea6-c311-4c65-ace4-904960bcaccc) | ![Product Details](https://github.com/user-attachments/assets/606e1aae-dbf4-431c-a2b1-5f661d891588) | ![Cart](https://github.com/user-attachments/assets/09507846-6d81-4359-9361-90c40cb436b0) |
+
+---
+
+### 🛍️ Discovery Features
+
+| Categories | Search Results | Favorites |
+|------------|----------------|-----------|
+| ![Categories](https://github.com/user-attachments/assets/392dc33c-d7bb-4d8a-9e90-5f9a7e8b6c43) | ![Search](https://github.com/user-attachments/assets/a34e6d73-b036-487c-81de-910f4febb0a5) | ![Favorites](https://github.com/user-attachments/assets/08f38d0c-ede8-450a-ae5c-8e256f76dd06) |
 
 ---
 
@@ -320,10 +320,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 
-- 💼 **Portfolio:** [your-portfolio.com](https://your-portfolio.com)
-- 🔗 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 **GitHub:** [@yourprofile](https://github.com/yourprofile)
-- 📧 **Email:** your.email@example.com
+- 🔗 **LinkedIn:** [linkedin.com/in/yourprofile](www.linkedin.com/in/mahmoud-hassanein-017119328)
+- 🐙 **GitHub:** [@yourprofile](https://github.com/mahmoudhassanein5555)
+- 📧 **Email:** mahmoudmohamedhassanein5@gmail.com
 
 ---
 
