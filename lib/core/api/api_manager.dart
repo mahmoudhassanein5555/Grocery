@@ -1,79 +1,100 @@
-
 import 'package:dio/dio.dart';
+import 'package:pretty_dio_logger/pretty_dio_logger.dart';
+import 'package:injectable/injectable.dart';
 
 import 'api_constant.dart';
 
-class ApiManger {
-  Dio dio = Dio();
-  Future<Response>getData({required String endPoint,
-    Map<String,dynamic>?qureyParmetes,
-    Options?options,
-    Map<String,dynamic>?headers,})
-
-  {
-    return dio.get(ApiConstant.baseUrl+endPoint,
-        queryParameters:qureyParmetes,
-        options:Options(headers:headers) );
-  }
-  
-  Future<Response>postData({required String endPoint,
-    Map<String,dynamic>?qureyParmetes,
-    Object?body,
-    Options?options,
-    Map<String,dynamic>?headers,})
-
-  {
-    return dio.post(ApiConstant.baseUrl+endPoint,
-        queryParameters:qureyParmetes,
-        data: body,
-        options:Options(headers:headers) );
-  }
-}
+@singleton
 class ApiManager {
-  static final ApiManager _instance = ApiManager._internal();
-  factory ApiManager() => _instance;
+  late final Dio dio;
 
-  late final Dio _dio;
-
-  ApiManager._internal() {
-    _dio = Dio(
+  ApiManager() {
+    dio = Dio(
       BaseOptions(
         baseUrl: ApiConstant.baseUrl,
         connectTimeout: const Duration(seconds: 10),
         receiveTimeout: const Duration(seconds: 10),
-        headers: {'Content-Type': 'application/json'},
+        headers: {
+          "Accept": "application/json",
+          "Content-Type": "application/json",
+        },
+        followRedirects: true,
+        validateStatus: (status) => status != null && status < 500,
       ),
     );
-    _dio.interceptors.add(
-      LogInterceptor(requestBody: true, responseBody: true),
+
+    dio.interceptors.add(
+      PrettyDioLogger(
+        requestHeader: true,
+        requestBody: true,
+        responseHeader: false,
+        responseBody: true,
+        error: true,
+        compact: true,
+        maxWidth: 90,
+      ),
     );
   }
 
-  // Future<Response> getData({
-  //   required String endPoint,
-  //   Map<String, dynamic>? queryParameters,
-  //   Map<String, dynamic>? headers,
-  //   Options? options,
-  // }) async {
-  //   return _dio.get(
-  //     endPoint,
-  //     queryParameters: queryParameters,
-  //     options: (options ?? Options()).copyWith(headers: headers),
-  //   );
-  // }
+  /// GET
+  Future<Response> getData({
+    required String endPoint,
+    Map<String, dynamic>? queryParameters,
+    Map<String, dynamic>? headers,
+    Options? options,
+  }) async {
+    return dio.get(
+      endPoint,
+      queryParameters: queryParameters,
+      options: (options ?? Options()).copyWith(headers: headers),
+    );
+  }
 
-  // Future<Response> postData({
-  //   required String endPoint,
-  //   Map<String, dynamic>? queryParameters,
-  //   Object? body,
-  //   Map<String, dynamic>? headers,
-  //   Options? options,
-  // }) async {
-  //   return _dio.post(
-  //     endPoint,
-  //     queryParameters: queryParameters,
-  //     data: body,
-  //     options: (options ?? Options()).copyWith(headers: headers),
-  //   );
-  // }
+  /// POST
+  Future<Response> postData({
+    required String endPoint,
+    Map<String, dynamic>? queryParameters,
+    Object? body,
+    Map<String, dynamic>? headers,
+    Options? options,
+  }) async {
+    return dio.post(
+      endPoint,
+      queryParameters: queryParameters,
+      data: body,
+      options: (options ?? Options()).copyWith(headers: headers),
+    );
+  }
+
+  /// PUT
+  Future<Response> putData({
+    required String endPoint,
+    Map<String, dynamic>? queryParameters,
+    Object? body,
+    Map<String, dynamic>? headers,
+    Options? options,
+  }) async {
+    return dio.put(
+      endPoint,
+      queryParameters: queryParameters,
+      data: body,
+      options: (options ?? Options()).copyWith(headers: headers),
+    );
+  }
+
+  /// DELETE
+  Future<Response> deleteData({
+    required String endPoint,
+    Object? body,
+    Map<String, dynamic>? queryParameters,
+    Map<String, dynamic>? headers,
+    Options? options,
+  }) async {
+    return dio.delete(
+      endPoint,
+      data: body,
+      queryParameters: queryParameters,
+      options: (options ?? Options()).copyWith(headers: headers),
+    );
+  }
 }

@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+import 'dart:ui';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class FontConstants {
@@ -29,5 +30,5 @@ class FontSize {
   static final double s18 = 18.0.sp;
   static final double s20 = 20.0.sp;
   static final double s22 = 22.0.sp;
-  static final double s24 = 24.0.sp; 
+  static final double s24 = 24.0.sp;
 }

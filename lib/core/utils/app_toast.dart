@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:toastification/toastification.dart';
 
 abstract class AppToast {
-  static void showToast({
+  static showToast({
     required BuildContext context,
     required String title,
     required String description,
@@ -13,17 +13,11 @@ abstract class AppToast {
       type: type,
       title: Text(
         title,
-        style: const TextStyle(
-          fontSize: 18,
-          fontWeight: FontWeight.bold,
-        ),
+        style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
       ),
       description: Text(
         description,
-        style: const TextStyle(
-          fontSize: 16,
-          fontWeight: FontWeight.w400,
-        ),
+        style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
       ),
       primaryColor: Colors.white,
       autoCloseDuration: const Duration(seconds: 3),
