@@ -1,23 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:grocery1/core/di/servicelocator.dart';
 import 'package:grocery1/core/resources/color_manager.dart';
 import 'package:grocery1/features/home/presentation/cubit/home_cubit.dart';
-import 'package:grocery1/features/cart/presentation/screens/showdrawe.dart';
-import 'package:grocery1/features/home/presentation/widgets/cart_drawer.dart';
-import '../cubit/cart_cubit.dart';
+import 'package:grocery1/features/payment/presentation/screens/showdrawe.dart';
 import '../cubit/category_cubit.dart';
 import '../cubit/product_search_cubit.dart';
 import '../cubit/recommended_cubit.dart';
-import '../widgets/categories_section.dart';
 import '../widgets/home_body.dart';
-import '../widgets/home_bottom_nav.dart';
-import '../widgets/home_header.dart';
-import '../widgets/home_search_bar.dart';
-import '../widgets/product_card.dart';
-import '../widgets/recommended_section.dart';
-import '../widgets/todays_deals_banner.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

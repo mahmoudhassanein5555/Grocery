@@ -4,25 +4,9 @@ import 'package:grocery1/core/api/api_manager.dart';
 import 'package:grocery1/core/di/servicelocator.dart';
 import 'package:grocery1/core/error/error.dart';
 import 'package:grocery1/core/failure/failure.dart';
-import 'package:grocery1/features/cart/data/models/data.dart';
 import 'package:grocery1/features/login/data/local/local_data_source.dart';
+import 'package:grocery1/features/payment/data/models/data.dart';
 import '../datasource/cart_datasource.dart';
-
-// class CartRepositoryImpl {
-//   final CartDatasource datasource =CartDatasource();
-
-//   Future<Either<Failure, Data_>> getCart() async {
-//     try {
-//       final result = await datasource.getCartProducts();
-//       if(result.success == false || result.data == null) {
-//         throw RemoteException(result.message ?? "Failed to fetch cart data");
-//       }
-//       return Right(result.data!);
-//     } on RemoteException catch (e) {
-//       return Left(Failure('e.toString()'));
-//     }
-//   }
-// }
 
 class CartRepositoryImpl {
   final CartDatasource datasource = CartDatasource();

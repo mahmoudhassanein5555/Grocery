@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:grocery1/core/api/api_manager.dart';
 import 'package:grocery1/core/resources/color_manager.dart';
-import 'package:grocery1/features/cart/data/models/checkout_model.dart';
-import 'package:grocery1/features/cart/domain/usecase/getcart_usecase.dart';
-import 'package:grocery1/features/cart/presentation/screens/paymentview.dart';
-import 'package:grocery1/features/delivery_addresses/data/repo/delivery_addresses_repo_impl.dart';
 import 'package:grocery1/features/delivery_addresses/presentation/cubit/delivery_addresses_cubit.dart';
 import 'package:grocery1/features/delivery_addresses/presentation/cubit/delivery_addresses_state.dart';
+import 'package:grocery1/features/payment/data/models/checkout_model.dart';
+import 'package:grocery1/features/payment/domain/usecase/getcart_usecase.dart';
+import 'package:grocery1/features/payment/presentation/screens/paymentview.dart';
 
 class Checkoutscreen extends StatefulWidget {
   static const String routeName = '/checkout';

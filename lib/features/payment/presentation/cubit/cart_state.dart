@@ -1,4 +1,4 @@
-import 'package:grocery1/features/cart/data/models/data.dart';
+import 'package:grocery1/features/payment/data/models/data.dart';
 
 abstract class minacartstate {}
 

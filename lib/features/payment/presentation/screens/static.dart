@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:grocery1/features/cart/data/models/order_model.dart';
-import 'package:grocery1/features/cart/presentation/cubit/cart_cubit.dart';
 import 'package:grocery1/features/login/data/local/local_data_source.dart';
+import 'package:grocery1/features/payment/data/models/order_model.dart';
+import 'package:grocery1/features/payment/presentation/cubit/cart_cubit.dart';
 
 class CartItemStatic extends StatefulWidget {
   late Ordersummary orderSummary;

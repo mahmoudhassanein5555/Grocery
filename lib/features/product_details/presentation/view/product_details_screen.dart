@@ -8,7 +8,7 @@ import 'package:grocery1/core/resources/string_constants.dart';
 import 'package:grocery1/core/resources/styles_manager.dart';
 import 'package:grocery1/core/resources/values_manager.dart';
 import 'package:grocery1/core/utils/app_toast.dart';
-import 'package:grocery1/features/cart/presentation/screens/showdrawe.dart';
+import 'package:grocery1/features/payment/presentation/screens/showdrawe.dart';
 import 'package:grocery1/features/product_details/presentation/view_model/product_details_cubit.dart';
 import 'package:grocery1/features/product_details/presentation/view_model/product_details_state.dart';
 import 'package:grocery1/features/product_details/presentation/widgets/bottom_navigation_bar_widget.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:grocery1/features/cart/data/repositories/cart_repository.dart';
-import 'package:grocery1/features/cart/domain/usecase/getcart_usecase.dart';
-import 'package:grocery1/features/cart/presentation/cubit/cart_state.dart';
+import 'package:grocery1/features/payment/data/repositories/cart_repository.dart';
+import 'package:grocery1/features/payment/domain/usecase/getcart_usecase.dart';
+import 'package:grocery1/features/payment/presentation/cubit/cart_state.dart';
 
 class minacartcubit extends Cubit<minacartstate> {
   CartRepositoryImpl repository = CartRepositoryImpl();

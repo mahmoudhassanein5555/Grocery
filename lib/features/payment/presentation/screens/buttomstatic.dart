@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:grocery1/core/resources/color_manager.dart';
-import 'package:grocery1/features/cart/data/models/checkout_model.dart';
-import 'package:grocery1/features/cart/data/models/data.dart';
-import 'package:grocery1/features/cart/presentation/screens/checkoutscreen.dart';
+import 'package:grocery1/features/payment/data/models/checkout_model.dart';
+import 'package:grocery1/features/payment/data/models/data.dart';
+import 'package:grocery1/features/payment/presentation/screens/checkoutscreen.dart';
 
 class CartBottomBarStatic extends StatelessWidget {
   final int totalPrice;
