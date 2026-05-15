@@ -230,7 +230,7 @@ Data Layer (Repository Implementation, Data Sources, Models)
 | ---------- | ------------------- | ---------------------- |
 | 🤖 Android | ✅ Production Ready | API 21+ (Android 5.0+) |
 | 🍎 iOS     | ✅ Production Ready | iOS 11.0+              |
-| 🌐 Web     | 🔄 Partial Support  | Limited functionality  |
+| 🌐 Web     | 🔄 Partial Support  | Future scope           |
 | 🪟 Windows | ⚠️ Not Implemented  | Future scope           |
 
 ---
@@ -320,8 +320,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 
-- 🔗 **LinkedIn:** [linkedin.com/in/yourprofile](www.linkedin.com/in/mahmoud-hassanein-017119328)
-- 🐙 **GitHub:** [@yourprofile](https://github.com/mahmoudhassanein5555)
+- 🔗 **LinkedIn:** www.linkedin.com/in/mahmoud-hassanein-017119328
+- 🐙 **GitHub:** https://github.com/mahmoudhassanein5555
 - 📧 **Email:** mahmoudmohamedhassanein5@gmail.com
 
 ---
